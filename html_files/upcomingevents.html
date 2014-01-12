@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+		
+		
+		<link href="../static/css/style.css" type="text/css" rel ="stylesheet"/>
+		<link href="../static/css/carousel.css" type="text/css" rel="stylesheet">
+
+<head>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="form.css">
+	<script>
+	$(document).ready(function(){
+		    $("#click").click(function(){
+       	s1 = window.open("registration.html");
+	    });
+	});
+	</script>
+
+<title>Upcoming Events</title>
+
+		<br>			
+		
+		<div class="noebox">
+			 <div id="name" >
+			 	<img src="../static/images/company.png" position=top height="100"/>
+			 	GrabHands
+			</div>
+			
+		<div id="motto">
+			Joining hands for a better tomorrow
+		</div>
+ 					<!--noebox div-->
+		<style>
+		body		{	background-color:#E6E6E6;
+				<!-- -background-image:url(../static/images/htmlp1.jpg);  -->
+					background-repeat:no-repeat;
+					background-attachment:fixed;
+					background-position:40% 40%;
+					background-width:50px;
+				}
+		</style>
+		
+
+</head>
+		
+		
+		<ul>
+			<li><a href="./login.html" target="_blank">Home</a></li><hr class="faded">
+			<li><a href="./upcomingevents.html" target="_blank">Upcoming Events</a></li><hr class="faded">
+			<li><a href="./companies.html" target="_blank">Companies</a></li><hr class="faded">
+			<li><a href="./contacts.html" target="_blank">Contact</a></li>
+	
+			
+		</ul>
+			<br><br>
+		<h1><i>
+			Upcoming Events
+		</i></h1>
+		
+		<br style="clear:both" />	
+		
+		
+		
+		<!_________________________________________________________horizontal line________________________________________________________________>	
+
+		<!__________________________________________________________________________________________________________________________________________>
+		
+			<div id="sliderbox">
+<style type="text/css">
+#slideshow {
+        margin-top:10px;
+        margin-left:90px;
+        width:1200px;
+        height:400px;
+        <!--background:transparent url(img/bg_slideshow.jpg) no-repeat 0 0;-->
+        position:relative;
+
+}
+#slideshow #slidesContainer {
+  width:1150px;
+  height:400px;
+  overflow:auto;
+  position:relative;
+        -webkit-box-shadow: 0 20px 10px -10px #999999;
+        -moz-box-shadow: 0 20px 10px -10px #999999;
+        box-shadow: 0 20px 10px -10px #999999;
+}
+#slideshow #slidesContainer .slide {
+  width:1200px;
+  height:550px;
+}
+.control {
+  display:block;
+  width:120px;
+  height:80px;
+  position:absolute;
+  background-color:#666666;
+  opacity:0.6;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  font-size:550%;
+  cursor:pointer;
+}
+#leftControl {
+  top:800px;
+  left:35px;
+  border-radius: 0 2px 2px 0;
+  -moz-border-radius-topright:2px;
+  -moz-border-radius-bottomright:2px;
+  border-style:solid;
+  border-width:2px;
+  width:110px;
+  position:absolute;
+}
+#rightControl {
+  top:800px;
+  right:30px;
+  border-radius: 2px 0 0 2px;
+  -moz-border-radius-topleft:2px;
+  -moz-border-radius-bottomleft:2px;
+  border-style:solid;
+  border-width:2px;
+  position:absolute;
+}
+#pageContainer {
+  width:960px;
+}
+.slide img {
+  float:right;
+  margin:15px;
+}
+control:hover
+{
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  var currentPosition = 0;
+  var slideWidth = 1200;
+  var slides = $('.slide');
+  var numberOfSlides = slides.length;
+  $('#slidesContainer').css('overflow', 'hidden');
+ slides
+    .wrapAll('<div id="slideInner"></div>')
+
+        .css({
+      'float' : 'left',
+      'width' : slideWidth
+    });
+  $('#slideInner').css('width', slideWidth * numberOfSlides);
+  $('#slideshow')
+    .append('<span class="control" id="leftControl"><</span>')
+    .append('<span class="control" id="rightControl">></span>');
+manageControls(currentPosition);
+$('.control')
+    .bind('click', function(){
+        currentPosition = ($(this).attr('id')=='rightControl') ? currentPosition+1 : currentPosition-1;
+    manageControls(currentPosition);
+   $('#slideInner').fadeOut(1300,function(){
+   $(this).animate({
+      'marginLeft' : slideWidth*(-currentPosition) 
+    },2000);
+    });
+  });
+function manageControls(position){
+  if(position==0){ $('#leftControl').fadeOut(500) } else{ $('#leftControl').fadeIn(500) }
+    if(position==numberOfSlides-1){ $('#rightControl').fadeOut(500) } else{ $('#rightControl').fadeIn(500) }
+  }     
+});
+
+</script>
+</head>
+<body>
+<div id="pageContainer">
+  <div id="slideshow">
+    <div id="slidesContainer">
+      <div class="slide">
+        <img src="../static/images/da.jpg" width="1200" height="400" />
+      </div>
+      <div class="slide">
+         <img src="../static/images/db.jpg"width="1200" height="400" />
+           </div>
+      <div class="slide">
+     <img src="../static/images/df.jpg"  width="1200" height="400" />
+        </div>
+      <div class="slide">
+      <img src="../static/images/dc.jpg"  width="1200" height="400" />
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+		
+		<br style="clear:both" />
+				<br style="clear:both" />		
+		
+		<div class="content">
+		<div class="ebox">
+		<font color="white">
+			<p class="semibold"><p>  
+
+Some the events that have been scheduled by NGOs.
+<br>
+		</div>
+		</div>
+		</font>
+		
+		<br style="clear:both" />
+
+			
+</html>
+
+
+
+
+

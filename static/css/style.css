@@ -1,0 +1,198 @@
+/*The beginning of the css file used for all pages*/
+
+/*For the body tag*/
+		body.b	{		background-color:#00001F;
+					background-image:url(htmlp1.jpg);
+					background-repeat:no-repeat;
+					background-attachment:fixed;
+					background-position:40% 40%;
+					background-width:50px;
+				}
+
+/*For headings*/
+		h1		{	/*background-color:#335CAD;*/
+					color:#FF9933;
+					float:left;
+					position:absolute;
+					top:130px;
+					font-weight:1000;
+			                font-size:100px;
+			                font-family:Arial;
+				}
+
+/*For smaller headings*/
+		h2		{	/*background-color:#5C7DBD;*/
+					color:#FFB894;
+					float:left;
+					left:0;
+					top:0;
+					
+				}
+
+/*For the paragraphs containing some text*/
+		div.content	{	/*background-color:#99AED6;*/
+					color:#FFFFFF;
+					margin-left:20px;
+					left:50px;
+					padding:0px 70px 0px 50px;
+				}
+
+/*To create a box around the contents*/
+		div.ebox	{	
+					background-color: rgba(0,0,0, 0.25);
+					border-radius:25px;
+					padding:10px 40px;
+					-moz-border-radius: 10px 30px;
+					border:2px solid #a1a1a1;
+				}
+/*Another box with a lighter background*/
+        div.noebox   {
+                     background-color:#F5F5F5;
+                     border-radius:5px;
+                     height:140px;
+                     box-shadow: 5px 5px 5px #CFCFCF;
+                     -moz-border-radius: 5px 30px;
+                     vertical-align: middle ;
+                     padding:10px 20px;
+                     padding-right:10px;
+                }
+                
+        div#name     {
+                     height:100px;
+                     line-height: 100px;
+                     vertical-align:middle;
+                     color:#FF9933;
+                     padding-left:0.28cm;
+                     text-shadow:-4px -3px #D1D1D1;
+                     left:10px;
+                     font-family:'Adobe Fan Heiti Std B';
+                     font-weight:900;
+                     font-size:70px;
+                     text-decoration:blink;
+                     margin-top:5px;
+                     <span style="font-family: @DotumChe, @FangSong, @DotumChe; font-style: normal; text-decoration: none; ></span>
+                }
+                
+        div.box2{
+		background-color: rgba(0,0,0, 0.245);
+		border-radius:25px;
+        	padding:10px 40px;
+		-moz-border-radius: 10px 30px;
+        	border:2px solid #a1a1a1;
+		margin-left:1000px;
+		position:relative;
+		top:30px;
+		right:200px;
+		}
+	div#motto{
+		color:#FF8533;
+		text-shadow:2px 2px #D5D5D5;
+		margin-left:610px;
+		margin-top:10px;
+		font-style:italic
+		}
+	div#sliderbox{
+		border:3px solid #a1a1a1;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		padding-bottom:30px;
+		}
+
+/*For all the lists*/
+		ul
+				{
+					list-style-type:none;
+					float:right;
+					position:relative;
+					padding:9px;
+					align:right;
+					border-left: 9px double #FFB894;
+					height: 270%;
+				}
+
+/*For the anchor tag*/
+		a
+				{
+					display:inline-block;
+					width:120px;
+					font-weight:bold;
+					font-family:Arial,Helvetica,sans-serif;
+					font-decoration:none;
+					font-size:100%;
+					
+				}
+
+/*For the hyperlinks*/
+		a:link		 {	color:#FFFFFF;
+				 }  
+
+/*For the visited hyperlinks*/  
+		a:visited 	{	color:#FFFFFF;
+				} 
+
+/*For the table*/
+		table.emp	{	border:4px solid grey;
+					position:center;
+				}
+
+/*For paragraphs with class semibold for semibold text*/				
+		p.semibold	{	font-weight:600;
+					text-align:left;
+					color:#FFFFFF;
+				}
+
+/*For papragraphs with class ex1*/				
+		p.ex1
+				{
+					position:absolute;
+					bottom:0px;
+				}
+
+/*For divisions with class last to act as footers*/
+		div.last	{	background-color:#1FB2C9;
+					box-shadow: 10px 10px 5px #888888;
+					border:2px solid #a1a1a1;
+					padding:10px 40px; 
+					border-radius:25px;
+				}
+
+/*For divisions with class 1*/
+		div.l		{	font-weight:100;
+					text-align:left;
+					color:#CCCCFF;
+				}
+hr.faded {
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: 5px;
+  margin: 1.4em 0;
+  border: none; 
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}
+				
+		div.vertical-line{
+ 					 width: 1px;
+					 background-color: silver;
+ 					 height: 100%;
+ 					 float: left;
+ 					 border: 2px ridge silver ;
+ 					 border-radius: 2px;
+				}
